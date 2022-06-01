@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(Einhorn-Walk.VIEWS_.10.7.19.kh_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(0,0,0,0.4);
+}
+ .logo{
+    width: 140px;
+    height: 60px;
+    padding: 10px 80px;
+}  
+ul{
+    float: right;
+    margin-right: 20px;
+}
+ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 6px 13px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center{
+    text-align: center ;
+}
+.center h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
